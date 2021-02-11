@@ -1,4 +1,4 @@
-# QuCA
+# Qubit Cloning Algorithm (QuCA)
 
 In a quantum computing system one of the most important tasks is to clone a qubit in an unknown state. The no-cloning theorem states that it is impossible to create an identical copy of an arbitrary quantum state, so different indirect cloning methods have been invented over the years. In this work a novel method to solve this problem is presented.
 The proposed method consists of a reinforcement learning algorithm to adapt the state of a qubit, the agent, in a reference state to that of a qubit in an unknown state, referred to as the environment, with the aim of achieving the maximum overlap between them. In this way, the state of the environment is reconstructed, obtaining the angles of its representation in the Bloch sphere. In each iteration of the algorithm, a new copy of the environment is used and it is measured, obtaining more and more information about its state. Depending on the measurement result, the agent is modified consequently, thus achieving convergence towards the state of the environment.
